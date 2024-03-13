@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1
+        {
+            width: 50%;
+            min-height: 100px;
+            border: 2px solid #000;
+            margin: auto;
+            background-color: #000;
+            color: white;
+        }
+        .div1 h2{
+
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+
+        <h2>C Program to Check Whether a Number is Palindrome or Not</h2>
+        <pre>
+            #include &ltstdio.h&gt;
+                int main() {
+                  int n, reversed = 0, remainder, original;
+                    printf("Enter an integer: ");
+                    scanf("%d", &n);
+                    original = n;
+                
+                    // reversed integer is stored in reversed variable
+                    while (n != 0) {
+                        remainder = n % 10;
+                        reversed = reversed * 10 + remainder;
+                        n /= 10;
+                    }
+                
+                    // palindrome if orignal and reversed are equal
+                    if (original == reversed)
+                        printf("%d is a palindrome.", original);
+                    else
+                        printf("%d is not a palindrome.", original);
+                
+                    return 0;
+                }
+        </pre>
+
+    </div>
+</body>
+</html>
