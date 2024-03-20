@@ -1,0 +1,13 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    width: 80%;
+    min-height: 100px;
+    
+    margin: auto;
+}

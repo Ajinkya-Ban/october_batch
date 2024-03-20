@@ -1,0 +1,73 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px gray;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+
+.bg-1
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../imgs/bullet2.jpg);
+}
+.bg-1 h2{
+
+    color: white;
+}
+.bg-2
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imgs/bullet3.jpg);
+}
+.bg-2 h2{
+
+    color: white;
+}
+
+.bg-3
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imgs/friends.jpg);
+}
+.bg-3 h2{
+
+    color: white;
+}
+
+.bg-4
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imgs/plain-backgrounds.jpg);
+}
+.bg-4 h2{
+
+    color: white;
+}
+.bg-5
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imgs/bullet2.jpg);
+}
+.bg-5 h2{
+
+    color: white;
+}
