@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Application</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 60%;
+            min-height: 100px;
+        
+            margin: 100px auto;      
+    }
+    .heading
+    {
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        padding: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+
+    }
+    .form-div
+    {
+        width: 500px;
+        min-height: 300px;
+        border: 3px solid #000;
+        margin: auto;
+        padding: 20px;
+        border-top-right-radius: 30%;
+        border-bottom-left-radius: 30%;
+        border-left: 0;
+        border-right: 0;
+        border-top-width: 6px;
+        border-bottom-width: 6px;
+        border-top-color: crimson;
+        border-bottom-color: royalblue;
+        /* box-shadow: 10px 10px 4px gray; */
+        background-color: white;
+
+    }
+    .formdata
+    {
+        width: 100%;
+    }
+    label{
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    input[type=text]{
+       
+        outline: none;
+        /* border: none;
+        border-bottom: 2px solid black; */
+        width: 94%;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        /* text-align: center; */
+        background-image: url(imgs/user.png);
+        background-repeat: no-repeat;
+        padding-left: 40px;
+
+    }
+    input[type=password]{
+
+        width: 94%;
+        
+        outline: none;
+        /* border: none;
+        border-bottom: 2px solid black; */
+        padding: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        /* text-align: center; */
+        background-image: url(imgs/pass.png);
+        background-repeat: no-repeat;
+        padding-left: 40px;
+
+    }
+    input[type=submit]{
+
+        width: 94%;
+        margin-top: 20px;
+        margin-left: 10px;
+        padding: 10px;
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 15px;
+        border: none;
+        background-color: royalblue;
+        color: white;
+    }
+    input[type=submit]:hover{
+        background-color: crimson;
+        color: white;
+    }
+    body{
+        background-image: linear-gradient(to right, #536976,#292E49);
+    }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="heading">
+            <h2>Login here</h2>
+        </div>
+
+        <div class="form-div">
+            <div class="formdata">
+                <form action="#" method="post">
+                <label for="lbluser">Enter Username</label>
+                <input type="text" id="lbluser" name="lbluser" autocomplete="off" placeholder="Enter username here">
+
+                <label for="lblpass">Enter Password</label>
+                <input type="password" id="lblpass" name="lblpass" autocomplete="off"
+                placeholder="Enter password here">
+
+                <input type="submit" value="Login">
+            </form>
+            </div>
+           
+        </div>
+    </div>
+</body>
+</html>
